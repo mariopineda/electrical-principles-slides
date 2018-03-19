@@ -1,135 +1,67 @@
-\documentclass{beamer}
+\documentclass[12pt,t]{beamer}
+\usepackage{graphicx}
+\setbeameroption{hide notes}
+\setbeamertemplate{note page}[plain]
+\usepackage{listings}
+
+\input{header.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% end of header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % title info
-\title{Genetic analysis of \\ high-throughput phenotypes}
-\subtitle{Challenges and opportunities}
-\author{\href{http://kbroman.org}{Karl Broman}}
-\institute{Biostatistics \& Medical Informatics, UW{\textendash}Madison}
-\date{\href{http://kbroman.org}{\tt \scriptsize \color{foreground} kbroman.org}
+\title{Electrical Principles - Part 1}
+\subtitle{Storage and transfer of electrical energy}
+\author{\href{www.drpineda.ca}{Mario Pineda}}
+\institute{Queen Elizabeth High School}
+\date{\href{www.drpineda.ca}{\tt \scriptsize \color{foreground} drpineda.ca}
 \\[-4pt]
-\href{https://github.com/kbroman}{\tt \scriptsize \color{foreground} github.com/kbroman}
+\href{https://github.com/mariopineda}{\tt \scriptsize \color{foreground} github.com/mariopineda}
 \\[-4pt]
-\href{https://twitter.com/kwbroman}{\tt \scriptsize \color{foreground} @kwbroman}
+\href{https://twitter.com/therocsci}{\tt \scriptsize \color{foreground} @therocsci}
 \\[2pt]
-\scriptsize {\lolit Slides:} \href{http://bit.ly/sgn2017}{\tt \scriptsize
-  \color{foreground} bit.ly/sgn2017}
-  }
+\scriptsize {\lolit Slides:} \href{https://github.com/mariopineda/electrical-principles-slides}{\tt \scriptsize
+  \color{foreground} github.com/mariopineda/electrical-principles-slides}
+}
 
 \begin{document}
-\beamertemplatenavigationsymbolsempty
-\title{Electrical Principles 1...}   
-\author{Mario Pineda} 
-\date{\today} 
 
 % title slide
 {
 \setbeamertemplate{footline}{} % no page number here
 \frame{
   \titlepage
-    \hfill \includegraphics[height=6mm]{images/cc-zero.png}
+  \hfill \includegraphics[height=6mm]{images/cc-zero.png}
+  \note{}
 
-   \note{These are slides for a talk that I gave at the Workshop on
-          Systems Genetics for Neurodegenerative Disease in Frauenchiemsee,
-	      Germany, on 27 Aug 2017
-
-          Source: {\tt https://github.com/kbroman/Talk\_SGN2017} \\
-      Slides: {\tt http://bit.ly/sgn2017}
-         }
-
-  }
-  }
-
-\frame{\frametitle{Table of contents}\tableofcontents} 
-
-
-\section{Section no.1} 
-\frame{\frametitle{Title} 
-Each frame should have a title.
 }
-\subsection{Subsection no.1.1  }
-\frame{ 
-Without title somethink is missing. 
 }
 
+\begin{frame}[c]{Static Electricity}
+\vspace{-20mm}
+\bbi
+\item Reduce residual variation $\longrightarrow$ increased power
+\item Separate linked QTL
+\item Identify interactions among QTL {\lolit (epistasis)}
+\ei
+\end{frame}
 
-\section{Section no. 2} 
-\subsection{Lists I}
-\frame{\frametitle{unnumbered lists}
-\begin{itemize}
-\item Introduction to  \LaTeX  
-\item Course 2 
-\item Termpapers and presentations with \LaTeX 
-\item Beamer class
-\end{itemize} 
-}
+\begin{frame}[c]{Current Electricity}
+\vspace{-20mm}
+Superconductors
+Wire gauge
+DMM - Digital Multi Meters 
+Resistance
+\end{frame}
 
-\frame{\frametitle{lists with pause}
-\begin{itemize}
-\item Introduction to  \LaTeX \pause 
-\item Course 2 \pause 
-\item Termpapers and presentations with \LaTeX \pause 
-\item Beamer class
-\end{itemize} 
-}
+\begin{frame}[c]{Electrical Safety}
 
-\subsection{Lists II}
-\frame{\frametitle{numbered lists}
-\begin{enumerate}
-\item Introduction to  \LaTeX  
-\item Course 2 
-\item Termpapers and presentations with \LaTeX 
-\item Beamer class
-\end{enumerate}
-}
-\frame{\frametitle{numbered lists with pause}
-\begin{enumerate}
-\item Introduction to  \LaTeX \pause 
-\item Course 2 \pause 
-\item Termpapers and presentations with \LaTeX \pause 
-\item Beamer class
-\end{enumerate}
-}
+\end{frame}
 
-\section{Section no.3} 
-\subsection{Tables}
-\frame{\frametitle{Tables}
-\begin{tabular}{|c|c|c|}
-\hline
-\textbf{Date} & \textbf{Instructor} & \textbf{Title} \\
-\hline
-WS 04/05 & Sascha Frank & First steps with  \LaTeX  \\
-\hline
-SS 05 & Sascha Frank & \LaTeX \ Course serial \\
-\hline
-\end{tabular}}
-
-
-\frame{\frametitle{Tables with pause}
-\begin{tabular}{c c c}
-A & B & C \\ 
-\pause 
-1 & 2 & 3 \\  
-\pause 
-A & B & C \\ 
-\end{tabular} }
-
-
-\section{Section no. 4}
-\subsection{blocs}
-\frame{\frametitle{blocs}
-
-\begin{block}{title of the bloc}
-bloc text
-\end{block}
-
-\begin{exampleblock}{title of the bloc}
-bloc text
-\end{exampleblock}
-
-
-\begin{alertblock}{title of the bloc}
-bloc text
-\end{alertblock}
-}
+\begin{frame}[c]{Cells and Batteries}
+Dry Cells: 
+Wet Cells:
+Multiple cells = battery
+\end{frame}
 \end{document}
-

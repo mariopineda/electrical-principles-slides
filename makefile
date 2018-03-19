@@ -14,7 +14,7 @@
 #              (currently linux = evince, OSX = open)
 #    clean   : removes the obj/ directory holding temporary files
 
-PROJECT = slides2
+PROJECT = slides
 
 default: obj/$(PROJECT).pdf
 

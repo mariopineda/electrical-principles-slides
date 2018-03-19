@@ -1,5 +1,6 @@
 ### latex.makefile
 # Author: Jason Hiebel
+# Customized by: Mario Pineda
 
 # This is a simple makefile for compiling LaTeX documents. The core assumption
 # is that the resulting documents should have any parameters effecting
@@ -13,7 +14,7 @@
 #              (currently linux = evince, OSX = open)
 #    clean   : removes the obj/ directory holding temporary files
 
-PROJECT = slides
+PROJECT = slides2
 
 default: obj/$(PROJECT).pdf
 

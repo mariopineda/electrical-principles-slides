@@ -88,3 +88,4 @@ obj/$(PROJECT).bbl: $(BIB_FILES) | obj/$(PROJECT).aux
 	
 obj/$(PROJECT).pdf: obj/$(PROJECT).aux $(if $(BIB_FILES), obj/$(PROJECT).bbl)
 	xelatex $(PDFLATEX_FLAGS) $(PROJECT)
+	cp obj/$(PROJECT).pdf ./$(PROJECT).pdf

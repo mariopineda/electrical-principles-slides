@@ -6,12 +6,13 @@
 ## Zinc Carbon
 - Type: Primary cell
 - Chemistry: Zinc, manganese-dioxide, carbon
-- Pros:
-- Cons: Single-use.
+- Pros: Cheap and readily avaliable
+- Cons: Single-use, short self life
 - Voltage: 1.5V
-- Usage: Invented 1866. First dry cell.
+- Usage: Low drain devices, e.g. remote controls, fire alarms, flash lights, clocks 
+- Invented 1866, first dry cell
 
-![Zinc Carbon Battery]{images/zinc-carbon-battery.png}
+![Zinc Carbon Battery](images/zinc-carbon-battery.png)
 
 ---
 
@@ -19,10 +20,12 @@
 - Type: Primary cell
 - Chemistry: Zinc and manganese-dioxide
 - Pros: Readily avaliable
-- Cons: Sinble-use use. Voltage drop during discharge. Prone to leak potassium hydroxide. Self-discharging. 
+- Cons: Single-use, voltage drop during discharge, prone to leak potassium hydroxide, self-discharging 
 - Voltage: 1.5V ("discharged" cells have a remaining voltage of between 0.8V-1.0V)
 - Usage: Consumer electronics
-- Invented in 1955. Account for 80% of manufactured batteries
+- Invented in 1955, account for 80% of manufactured batteries
+
+![Alkaline Battery](images/alkaline-battery.gif)
 
 ---
 
@@ -34,6 +37,8 @@
 - Voltage: 2.7-4.2V
 - Usage: personal electronics (laptops, cell phones), RC vehicles, International Space Station (since 2017)
 - Invented by Sony in 1991
+
+![LiPo Battery](images/lipo-battery.jpg)
 
 ---
 
@@ -54,7 +59,9 @@
 - Cons: Effectiveness reduced at low temperatures, self-discharges, contains lead and concentrated sulfuric acid
 - Voltage: 2V per cell
 - Usage: Vehicle starter and ignition, backup power supplies (computer UPS units)
-- Oldest type of rechargable
+- Oldest type of rechargable battery, invented in 1859
+
+![Lead Acid Battery](images/lead-acid-battery.jpg)
 
 ---
 
@@ -72,10 +79,12 @@
 # Nickel-metal Hydride (NiMH)
 - Type: Secondary cell
 - Chemistry:
-- Pros:
-- Overcharging can rupture
+- Pros: Higher energy content that NiCd
+- Cons: Overcharging can rupture battery
 - Voltage: 1.4-1.6V
-- Usage: Consumer electronics
+- Usage: Consumer electronics, e.g. RC vehicles
+
+![NiMH Battery](images/nimh-battery.jpg)
 
 ---
 

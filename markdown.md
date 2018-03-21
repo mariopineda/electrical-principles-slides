@@ -3,6 +3,29 @@
 
 ---
 
+## Zinc Carbon
+- Type: Primary cell
+- Chemistry: Zinc, manganese-dioxide, carbon
+- Pros:
+- Cons: Single-use.
+- Voltage: 1.5V
+- Usage: Invented 1866. First dry cell.
+
+![Zinc Carbon Battery]{images/zinc-carbon-battery.png}
+
+---
+
+## Alkaline Battery
+- Type: Primary cell
+- Chemistry: Zinc and manganese-dioxide
+- Pros: Readily avaliable
+- Cons: Sinble-use use. Voltage drop during discharge. Prone to leak potassium hydroxide. Self-discharging. 
+- Voltage: 1.5V ("discharged" cells have a remaining voltage of between 0.8V-1.0V)
+- Usage: Consumer electronics
+- Invented in 1955. Account for 80% of manufactured batteries
+
+---
+
 ## Lithium Polymer (LiPo)
 - Type: Secondary cell
 - Chemistry: Lithium-ion and polymer (gel) electrolyte
@@ -42,6 +65,7 @@
 - Cons: Contains Cadmium (heavy, expensive and toxic), corrosive electrolytes
 - Voltage: 1.2V per cell
 - Usage: Portable electronic equipment, e.g. flash lights, aircraft and satellite systems, starting large disel engines and turbines.
+- Invented in 1899.
 
 ---
 
@@ -56,7 +80,13 @@
 ---
 
 # Fuel Cells
-- Fuel and oxidant are continuously supplied from the outise while vaste products are removed.
+- Fuel and oxidant are continuously supplied frrom the outside while vaste products are removed.
 - Pros: High-efficiency of energy conversion, no harmful waste products, no need to recharge
-- Cons: Expensive, fuel gases must be stored in high-pressure tanks, moderate power output
-- Use: The space shuttle and Apollo space program, military submarines 
+- Cons: Expensive, bulky, complex technology, fuel gases must be stored in high-pressure tanks, moderate power output
+- Use: The space shuttle and Apollo space program, military submarines
+
+[Video: What are fuel cells?](https://www.youtube.com/watch?v=Tk_iIzOUjTU) 
+
+# Batteries vs. Fuel Cells
+- Batteries: Spontaneous chemical reaction generates electricity
+- Fuel Cell: Requires a continuous supply of fuel
